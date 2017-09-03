@@ -16,24 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Activity2"
-            android:label="@string/title_activity_2"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="randomcompany.listview.MainActivity" />
-        </activity>
-        <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="randomcompany.listview.MainActivity" />
-        </activity>
         <activity android:name=".Main3Activity"></activity>
     </application>
 

@@ -34,7 +34,11 @@ public class Main3Activity extends AppCompatActivity {
         UsersAdapter adapter = new UsersAdapter(this, arrayOfUsers);
 
         User newUser = new User("Nathan", "San Diego", "23");
+        User new2User = new User("asdasdasd", "123", "23");
+        User new3User = new User("000", "000 Diego", "000");
         adapter.add(newUser);
+        adapter.add(new2User);
+        adapter.add(new3User);
 // Attach the adapter to a ListView
         ListView listView = (ListView) findViewById(R.id.lvitems);
         listView.setAdapter(adapter);

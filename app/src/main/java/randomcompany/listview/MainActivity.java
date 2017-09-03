@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity {
 
    // public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
@@ -34,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 tvHome.setText(user.hometown);
                 tvId.setText(user.id);
             } catch (Exception E) {
+                // ez csak test :D mert az a if null nem csinal semmit
                 Toast.makeText(this, "well well well", Toast.LENGTH_SHORT).show();
             }
 
@@ -46,11 +45,10 @@ public class MainActivity extends AppCompatActivity {
         //String message = editText.getText().toString();
 
 
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("SZAR");
-        list.add("FOS");
+        //ArrayList<String> list = new ArrayList<String>();
 
-        intent.putExtra("list",list);
+
+        //intent.putExtra("list",list);
 
 
 
