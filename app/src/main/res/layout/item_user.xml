@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoSizeMinTextSize="16dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoSizeMinTextSize="26dp"
+        android:text="HomeTown"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="0.12"
+        android:text="Button"
+        android:textSize="10sp" />
+</LinearLayout>
